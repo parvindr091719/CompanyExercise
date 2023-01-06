@@ -24,7 +24,7 @@
   
   .freeSection,
   .premSection {
-    width: 30vw;
+    width: 36vw;
   }
   
   
@@ -66,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 8vw;
+    height: 5vw;
     padding: 0vw;
     box-shadow: 0px 0px 2px rgb(199, 198, 198);
   }
@@ -74,7 +74,6 @@
   .btnDiv button {
     background-color: #499557;
     color: white;
-    font-size: 1.2vw;
     border: none;
     border-radius: 25px;
     padding: 1vw 6vw;
@@ -93,14 +92,13 @@
     justify-content: center;
     align-items: center;
     padding: 0vw;
-    height: 8vw;
+    height: 5vw;
     box-shadow: 0px 0px 2px rgb(199, 198, 198);
   }
   
   .btnDivPrem button {
     background-color: rgb(243, 172, 42);
     color: white;
-    font-size: 1.2vw;
     border: none;
     border-radius: 25px;
     padding: 1vw 6vw;
@@ -117,13 +115,13 @@
   
   .paraItems {
     font-size: 1.5vw;
-    padding: 3vw 2vw;
+    padding: 2vw 2vw;
     box-shadow: 0px 0px 1px rgb(199, 198, 198);
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    max-height: 4vw;
+    max-height: 0vw;
     color: #252525;
   }
   
@@ -141,9 +139,8 @@
   
   .lastItem {
     background-color: lightgray;
-    padding: 2vw;
+    padding: 1.5vw;
     font-size: 1.5vw;
-    /* box-shadow: 0px 0px 2px rgb(199, 198, 198); */
     box-shadow: 0px 8px 8px rgb(199, 198, 198);
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;

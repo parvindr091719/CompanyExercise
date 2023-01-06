@@ -10,7 +10,7 @@ import Premium from './components/Premium/Premium';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar/> <br/>
       <Header/>
       <Home/>
       <Premium/>

@@ -1,16 +1,10 @@
 .navbar {
-  display: flex;
+  display:flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
-  background-color: white;
+  background-color:white;
   color: black;
-}
-
-.select {
-  font-size: 15px;
-  padding: 7px;
-  border-radius: 6px;
 }
 
 .navbar a {
@@ -32,13 +26,6 @@
 
 .nav-logo{
   width: 6.8rem;
-  margin-left: -40rem;
-  border-radius: 6px;
-  margin-top: 0.3rem;
-}
-
-.premium a{
-  margin-left: -25rem;
 }
 
 @media (max-width: 600px) {
