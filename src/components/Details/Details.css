@@ -1,0 +1,113 @@
+.detailOuterDiv {
+    margin-top: 6vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .detailOuterDiv p {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .roundProgress {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  
+  .roundItem {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .circleDiv1 {
+    font-size: 1.5vw;
+    border-radius: 50%;
+    height: 12vw;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: conic-gradient(#499557 270deg, lightgray 0deg);
+  }
+  
+  .percent1 {
+    height: 11vw;
+    width: 11vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    color: #499557;
+    font-weight: 600;
+  }
+  
+  .circleDiv2 {
+    font-size: 1.5vw;
+    border-radius: 50%;
+    height: 12vw;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: conic-gradient(#499557 360deg, lightgray 0deg);
+  }
+  
+  .percent2 {
+    height: 11vw;
+    width: 11vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    color: #499557;
+    font-weight: 600;
+  }
+  
+  .circleDiv3 {
+    font-size: 1.5vw;
+    border-radius: 50%;
+    height: 12vw;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: conic-gradient(#499557 306deg, lightgray 0deg);
+  }
+  
+  .percent3 {
+    height: 11vw;
+    width: 11vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    color: #499557;
+    font-weight: 600;
+  }
+  
+  .bigValue {
+    font-size: 3.5vw;
+  }
+  
+  .smallValue {
+    font-size: 1.2vw;
+  }

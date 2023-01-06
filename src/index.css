@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:linear-gradient(to right, rgb(253, 83, 4), white, green);
+  background-size: cover;
+  background-position: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: none;
+    /* background-color: #ccc; */
+    background-image:linear-gradient(to right, rgb(253, 83, 4), white, green);
+    /* background-size: cover;
+    background-position: center; */
+  }
 }

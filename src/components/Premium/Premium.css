@@ -1,0 +1,158 @@
+.premiumOuterDiv {
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .premiumHeading {
+    font-size: 2.5vw;
+    padding: 8px;
+    margin: 30px;
+    font-weight: 520;
+    letter-spacing: 0.5px;
+  }
+  
+  .premiumTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .freeSection,
+  .premSection {
+    width: 30vw;
+  }
+  
+  
+  .freeHead {
+    background-color: #499557;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    letter-spacing: 1px;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .premHead {
+    background-color: rgb(243, 172, 42);
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    letter-spacing: 1px;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vw;
+    padding: 0vw;
+    box-shadow: 0px 0px 2px rgb(199, 198, 198);
+  }
+  
+  .btnDiv button {
+    background-color: #499557;
+    color: white;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 25px;
+    padding: 1vw 6vw;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .btnDiv button:hover {
+    background-color: #376f41;
+    transition: 1s;
+  }
+  
+  .btnDivPrem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw;
+    height: 8vw;
+    box-shadow: 0px 0px 2px rgb(199, 198, 198);
+  }
+  
+  .btnDivPrem button {
+    background-color: rgb(243, 172, 42);
+    color: white;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 25px;
+    padding: 1vw 6vw;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .btnDivPrem button:hover {
+    background-color: rgb(192, 137, 34);
+    transition: 1s;
+  }
+  
+  
+  .paraItems {
+    font-size: 1.5vw;
+    padding: 3vw 2vw;
+    box-shadow: 0px 0px 1px rgb(199, 198, 198);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    max-height: 4vw;
+    color: #252525;
+  }
+  
+  .paraItems span {
+    float: right;
+    color: gray;
+    cursor: pointer;
+    margin-left: 0.5vw;
+    font-size: 1.8vw;
+  }
+  
+  .paraItems span:hover {
+    color: lightgray;
+  }
+  
+  .lastItem {
+    background-color: lightgray;
+    padding: 2vw;
+    font-size: 1.5vw;
+    /* box-shadow: 0px 0px 2px rgb(199, 198, 198); */
+    box-shadow: 0px 8px 8px rgb(199, 198, 198);
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    text-align: center;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 0.8px black;
+  }
+  
+  .someText {
+    font-size: 1.5vw;
+    text-align: center;
+  }

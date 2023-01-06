@@ -1,0 +1,17 @@
+header{
+    margin-top: 20px;
+}
+button {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: green;
+    min-width: 64px;
+    padding: 9px 29px;
+    border-radius: 15px;
+  }
+  
+  button:hover {
+    background-color: rgb(53, 214, 12);
+  }
