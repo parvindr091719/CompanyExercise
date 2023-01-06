@@ -39,18 +39,47 @@ flex-direction: row;
     color: #4D536E;
 }
 .tab-progress-bar{
-    height: 1.5px;
+    height: 5px;
     background: #e7e9f5;
     border-radius: 1px;
     width: 100%;
 }
 .tab-progress-bar-active{
-    height: 1.5px;
-    background: black;
+    height: 5px;
+    background: green;
     transform-origin: left center;
     border-radius: 1px;
     animation: appear 7s linear forwards !important;
 }
+@keyframes appear {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes slidein {
+    from{
+        opacity: 0;
+        margin-top: 2vw;
+    }
+    to{
+        opacity: 1;
+        margin-top: 6vw;
+    }
+}
+@keyframes slideinafter {
+    from{
+        opacity: 0;
+        margin-top: 14vw;
+    }
+    to{
+        opacity: 1;
+        margin-top: 18vw;
+    }
+}
+
 
 @media (max-width: 600px) {
     .scroall-section{
@@ -93,16 +122,16 @@ flex-direction: row;
             color: #4D536E;
         }
         .tab-progress-bar{
-            height: 1.5px;
+            height: 5px;
             background: #e7e9f5;
             border-radius: 1px;
             width: 100%;
         }
         .tab-progress-bar-active{
-            height: 1.5px;
-            background: black;
+            height: 5px;
+            background: green;
             transform-origin: left center;
             border-radius: 1px;
             animation: appear 7s linear forwards !important;
-        }
+         }
   }

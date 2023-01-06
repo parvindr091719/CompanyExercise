@@ -116,3 +116,125 @@
     font-size: 1.5vw;
     text-align: center;
   }
+
+  @media (max-width: 600px) {
+    .detailOuterDiv {
+      margin-top: 6vw;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .detailOuterDiv p {
+      margin: 10px;
+      text-align: center;
+    }
+    
+    .roundProgress {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+    }
+    
+    .roundItem {
+      margin: 20px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: center;
+      text-align: center;
+      width: 50%;
+    }
+    
+    .circleDiv1 {
+      font-size: 2vw;
+      border-radius: 80%;
+      height: 32vw;
+      width: 32vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: conic-gradient(#499557 270deg, lightgray 0deg);
+    }
+    
+    .percent1 {
+      height: 30vw;
+      width: 30vw;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 50%;
+      color: #499557;
+      font-weight: 600;
+    }
+    
+    .circleDiv2 {
+      font-size: 2vw;
+      border-radius: 50%;
+      height: 32vw;
+      width: 32vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: conic-gradient(#499557 360deg, lightgray 0deg);
+    }
+    
+    .percent2 {
+      height: 30vw;
+      width: 30vw;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 50%;
+      color: #499557;
+      font-weight: 600;
+    }
+    
+    .circleDiv3 {
+      font-size: 2vw;
+      border-radius: 50%;
+      height: 32vw;
+      width: 32vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      flex-direction: column;
+      background: conic-gradient(#499557 306deg, lightgray 0deg);
+    }
+    
+    .percent3 {
+      height: 30vw;
+      width: 30vw;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 50%;
+      color: #499557;
+      font-weight: 600;
+    }
+    
+    .bigValue {
+      font-size: 5vw;
+    }
+    
+    .smallValue {
+      font-size: 3vw;
+    }
+  
+    .someTexts {
+      font-size: 4vw;
+      text-align: center;
+    }
+  
+  }
