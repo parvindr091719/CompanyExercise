@@ -7,24 +7,27 @@
   }
   
   .premiumHeading {
-    font-size: 2.5vw;
+    font-size: 4vw;
     padding: 8px;
-    margin: 30px;
+    margin: 11px;
     font-weight: 520;
     letter-spacing: 0.5px;
   }
   
   .premiumTable {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   .freeSection,
   .premSection {
     width: 36vw;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    background-color: white;
   }
   
   
@@ -150,6 +153,36 @@
   }
   
   .someText {
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: center;
   }
+
+
+@media (max-width: 768px) {
+  .freeSection, .premSection {
+    width: 100%;
+    flex-direction:column;
+    margin-left:25px;
+    margin-right:25px;
+    font-size: 19px;
+  }
+  .paraItems {
+    font-size: 3vw;
+    padding: 4vw 2vw;
+    box-shadow: 0px 0px 1px rgb(199, 198, 198);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    max-height: 0vw;
+    color: #252525;
+  }
+  .someText {
+    font-size: 3vw;
+    text-align: center;
+  }
+  .freeHead, .premHead{
+    font-size: 4vw;
+    font-weight: bold;
+  }
+}

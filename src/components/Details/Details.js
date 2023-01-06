@@ -55,31 +55,31 @@ function Details(){
     return (
         <div className='detailOuterDiv' id='roundProgress'>
             <p className='premiumHeading'>Write better, faster, and clearer instantly</p>
-            <p className='someText'>QuillBot is trusted by students, professionals writers, and business people who want to write more effectively.</p>
+            <p className='someTexts'>QuillBot is trusted by students, professionals writers, and business people who want to write more effectively.</p>
             <div className='roundProgress' >
                 <div className='roundItem'>
                     <div className='circleDiv1' id='circle1' style={{
-                        background: `conic-gradient(#499557 ${filled1}deg, lightgray 0deg`
+                        background: `conic-gradient(green ${filled1}deg, lightgray 0deg`
                     }}>
                         <div className='percent1'><span className='bigValue'>{text1}% </span><span className='smallValue'>time saved</span></div>
                     </div>
-                    <p className='someText'>Average time savings per writing project.</p>
+                    <p className='someTexts'>Average time savings per writing project.</p>
                 </div>
                 <div className='roundItem'>
                     <div className='circleDiv2' id='circle2' style={{
-                        background: `conic-gradient(#499557 ${filled2}deg, lightgray 0deg`
+                        background: `conic-gradient(green ${filled2}deg, lightgray 0deg`
                     }}>
                         <div className='percent2'><span className='bigValue'>{text2}+</span><span className='smallValue'>million</span></div>
                     </div>
-                    <p className='someText'>Trusted by millions worldwide.</p>
+                    <p className='someTexts'>Trusted by millions worldwide.</p>
                 </div>
                 <div className='roundItem'>
                     <div className='circleDiv3' id='circle3' style={{
-                        background: `conic-gradient(#499557 ${filled3}deg, lightgray 0deg`
+                        background: `conic-gradient(green ${filled3}deg, lightgray 0deg`
                     }}>
                         <div className='percent3'><span className='bigValue'>{text3}%</span><span className='smallValue'>of students</span></div>
                     </div>
-                    <p className='someText'>Who reported their grades improved after using QuillBot.</p>
+                    <p className='someTexts'>Who reported their grades improved after using QuillBot.</p>
                 </div>
             </div>
         </div>

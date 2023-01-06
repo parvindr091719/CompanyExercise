@@ -30,13 +30,19 @@
 
 @media (max-width: 600px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    height: 1.5rem;
   }
+
   .navbar li {
     margin: 0.5rem 0;
   }
   .navbar ul {
-    display: none;
+    display: inherit;
   }
   .navbar select {
     display: block;

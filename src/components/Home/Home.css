@@ -51,3 +51,58 @@ flex-direction: row;
     border-radius: 1px;
     animation: appear 7s linear forwards !important;
 }
+
+@media (max-width: 600px) {
+    .scroall-section{
+        display: flex;
+        flex-direction: column;
+        }
+        .scroall-images{
+            display: flex;
+            flex-direction: column;
+        }
+        .scroall-slide-1{
+            position:absolute;
+            width: 74vw;
+            box-shadow: 0 14px 55px rgb(109 117 141 / 20%);
+            margin-top: 6vw !important;
+            animation: slidein 0.3s linear forwards !important;
+        }
+        
+        .tabs-list{
+            margin-top: 55vw;
+            width:70%;
+            margin-left: 6%;
+            list-style: none;
+        }
+        .tab-list-item{
+         cursor: pointer;   
+        }
+        .tab-list-heading{
+            font-size: 3.5vw;
+            color: rgb(6, 92, 32);
+        }
+        .tab-active{
+            color:black;
+        }
+        .tab-list-text{
+            font-size: 3vw;
+            margin-top: 0;
+            letter-spacing: -0.2px;
+            margin-bottom: 1.3vw;
+            color: #4D536E;
+        }
+        .tab-progress-bar{
+            height: 1.5px;
+            background: #e7e9f5;
+            border-radius: 1px;
+            width: 100%;
+        }
+        .tab-progress-bar-active{
+            height: 1.5px;
+            background: black;
+            transform-origin: left center;
+            border-radius: 1px;
+            animation: appear 7s linear forwards !important;
+        }
+  }
